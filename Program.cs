@@ -1,4 +1,5 @@
 ﻿using basicProgramming;
+using basicProgramming.oopsProgramming;
 
 internal class Program
 {
@@ -11,8 +12,21 @@ internal class Program
         //LoginSystem logInSystem = new LoginSystem();
         //logInSystem.LogIn();
 
-        MenuDrivenCalculator menuDrivenCalculator = new MenuDrivenCalculator();
-        menuDrivenCalculator.Calculate();
+        //MenuDrivenCalculator menuDrivenCalculator = new MenuDrivenCalculator();
+        //menuDrivenCalculator.Calculate();
+
+        //CalculateAirQualityIndex calculator = new CalculateAirQualityIndex();
+        //calculator.CalculateAQI();
+
+        //Shape Heirarachy
+
+        Circle circle = new Circle();
+        circle.GetArea();
+
+        Square square = new Square();
+        square.GetArea();
+
+
 
 
     }
