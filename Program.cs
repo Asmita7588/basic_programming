@@ -8,7 +8,12 @@ internal class Program
         //MovieTicketPrice movieTicketPrice = new MovieTicketPrice();
         //movieTicketPrice.CalculateTicketPrice();
 
-        LoginSystem logInSystem = new LoginSystem();
-        logInSystem.LogIn();
+        //LoginSystem logInSystem = new LoginSystem();
+        //logInSystem.LogIn();
+
+        MenuDrivenCalculator menuDrivenCalculator = new MenuDrivenCalculator();
+        menuDrivenCalculator.Calculate();
+
+
     }
 }
