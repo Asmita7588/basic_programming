@@ -7,8 +7,11 @@ internal class Program
         //CurrentTimeInDiffrentTimeZoneProgram currentTimeInDiffrentTimeZoneProgram = new CurrentTimeInDiffrentTimeZoneProgram();
         //currentTimeInDiffrentTimeZoneProgram.CurrentTimeInDifferentTimeZone();
 
-        WorkDayCalculator workDayCalculator = new WorkDayCalculator();
-        int workedDay= workDayCalculator.CalculateWorkDay();
-        Console.WriteLine("Total work day " + workedDay);
+        //WorkDayCalculator workDayCalculator = new WorkDayCalculator();
+        //int workedDay= workDayCalculator.CalculateWorkDay();
+        //Console.WriteLine("Total work day = " + workedDay);
+
+        SumOddEvenOfIntegerNumber sumOddEvenOfIntegerNumber = new SumOddEvenOfIntegerNumber();
+         sumOddEvenOfIntegerNumber.SumOddEven(123456);
     }
 }
